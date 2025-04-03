@@ -1,0 +1,43 @@
+body {
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar {
+    transition: background 0.3s;
+}
+
+.code-input {
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.output-container {
+    width: 100%;
+    height: 300px;
+    background: white;
+    border: 2px solid black;
+    transition: background 0.3s, border 0.3s;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background: #333;
+}
+
+.dark-mode .code-input {
+    background: #333;
+    color: white;
+    border: 1px solid #777;
+}
+
+.dark-mode .output-container {
+    background: black;
+    border: 2px solid white;
+}
